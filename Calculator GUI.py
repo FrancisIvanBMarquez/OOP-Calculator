@@ -26,7 +26,8 @@ second_number_box.place(x=120, y=200)
 # Buttons for operation
 
     # Addition
-addition_button = Button(window, text="Add")
+addition_button = Button(window, text="Add",font=("Calibri",25),fg="white",bg="deep sky blue",
+                         activeforeground="white",activebackground="deep sky blue")
 addition_button.place(x=100,y=250)
      # Subtraction
 subtraction_button = Button(window, text="Subtract")
