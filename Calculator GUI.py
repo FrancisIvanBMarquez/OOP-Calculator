@@ -5,7 +5,7 @@ from ClassCalculator import *
 
 # Add Window and specifications
 window = Tk()
-window.geometry("450x600")
+window.geometry("450x700")
 window.title("Two Numbers Calculator")
 calculator_icon = PhotoImage(file='CalculatorIcon.png')
 window.iconphoto(True,calculator_icon)
@@ -37,7 +37,7 @@ addition_button.place(x=100,y=250)
      # Subtraction
 subtraction_button = Button(window, text="Subtract",font=("Calibri",25),fg="white",bg="deep sky blue",
                          activeforeground="white",activebackground="deep sky blue",image=subtract_icon,compound="bottom")
-subtraction_button.place(x=100,y=300)
+subtraction_button.place(x=100,y=450)
     # Multiplication
 multiplication_button = Button(window, text="Multiply",font=("Calibri",25),fg="white",bg="deep sky blue",
                          activeforeground="white",activebackground="deep sky blue",image=multiply_icon,compound="bottom")
@@ -45,7 +45,7 @@ multiplication_button.place(x=300,y=250)
     # Division
 division_button = Button(window, text="Divide",font=("Calibri",25),fg="white",bg="deep sky blue",
                          activeforeground="white",activebackground="deep sky blue",image=divide_icon,compound="bottom")
-division_button.place(x=300,y=300)
+division_button.place(x=300,y=450)
 
 # Output Message
 
