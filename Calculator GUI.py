@@ -17,10 +17,10 @@ title_box.pack()
 
 # Add first number box
 first_number_box = Entry(window, font=("Calibri",15),bd=5)
-first_number_box.pack()
+first_number_box.place(x=120,y=150)
 # Add second number box
 second_number_box = Entry(window, font=("Calibri",15),bd=5)
-second_number_box.pack()
+second_number_box.place(x=120, y=200)
 # Buttons for operation
 
     # Addition
