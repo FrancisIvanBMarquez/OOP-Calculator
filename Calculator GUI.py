@@ -9,7 +9,7 @@ window.geometry("450x600")
 window.title("Two Numbers Calculator")
 calculator_icon = PhotoImage(file='CalculatorIcon.png')
 window.iconphoto(True,calculator_icon)
-
+window.config(background="SeaGreen1")
 # Add first number box
 # Add second number box
 # Buttons for operation
