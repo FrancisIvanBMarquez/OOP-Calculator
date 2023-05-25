@@ -35,6 +35,8 @@ subtraction_button.place(x=100,y=300)
 multiplication_button = Button(window, text="Multiply")
 multiplication_button.place(x=300,y=250)
     # Division
+division_button = Button(window, text="Divide")
+division_button.place(x=300,y=300)
 
 # Output Message
 
