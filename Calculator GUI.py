@@ -4,6 +4,10 @@ from tkinter import *
 from ClassCalculator import *
 calc = Calculator()
 
+# Def statements
+def add():
+    sum = first_number_box + second_number_box
+    print(sum)
 # Add Window and specifications
 window = Tk()
 window.geometry("450x700")
@@ -33,7 +37,7 @@ divide_icon = PhotoImage(file="divide icon.png")
 
     # Addition
 addition_button = Button(window, text="Add",font=("Calibri",25),fg="white",bg="deep sky blue",
-                         activeforeground="white",activebackground="deep sky blue",image=add_icon,compound="bottom",padx=20)
+                         activeforeground="white",activebackground="deep sky blue",image=add_icon,compound="bottom",padx=20,command=add())
 addition_button.place(x=60,y=250)
      # Subtraction
 subtraction_button = Button(window, text="Subtract",font=("Calibri",25),fg="white",bg="deep sky blue",
