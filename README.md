@@ -1,2 +1,2 @@
-# OOP Calculator
+# OOP Two Numbers Calculator
  
