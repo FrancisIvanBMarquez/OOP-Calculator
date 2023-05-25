@@ -1,8 +1,10 @@
 # Marquez, Francis Ivan B.,_BSCpE 1-5
 # Import
 from tkinter import *
-from Class Calculator import Calculator
+from ClassCalculator import Calculator
+
 # Add Window
+window = Tk()
 # Add first number box
 # Add second number box
 # Buttons for operation
@@ -11,3 +13,5 @@ from Class Calculator import Calculator
     # Multiplication
     # Division
 # Output Message
+
+window.mainloop()
