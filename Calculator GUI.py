@@ -12,7 +12,7 @@ window.iconphoto(True,calculator_icon)
 window.config(background="SeaGreen1")
 # Title Box
 title_box = Label(window, text="Two Numbers Calculator", font=("Calibri",29,"bold"),fg="white",bg="deep sky blue",
-                  relief=RAISED, bd=15)
+                  relief=RAISED, bd=15,padx=12,pady=15)
 title_box.pack()
 
 # Add first number box
