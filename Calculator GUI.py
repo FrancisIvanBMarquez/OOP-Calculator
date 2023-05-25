@@ -32,20 +32,20 @@ divide_icon = PhotoImage(file="divide icon.png")
 
     # Addition
 addition_button = Button(window, text="Add",font=("Calibri",25),fg="white",bg="deep sky blue",
-                         activeforeground="white",activebackground="deep sky blue",image=add_icon,compound="bottom")
-addition_button.place(x=100,y=250)
+                         activeforeground="white",activebackground="deep sky blue",image=add_icon,compound="bottom",padx=20)
+addition_button.place(x=60,y=250)
      # Subtraction
 subtraction_button = Button(window, text="Subtract",font=("Calibri",25),fg="white",bg="deep sky blue",
-                         activeforeground="white",activebackground="deep sky blue",image=subtract_icon,compound="bottom")
-subtraction_button.place(x=100,y=450)
+                         activeforeground="white",activebackground="deep sky blue",image=subtract_icon,compound="bottom", padx=5)
+subtraction_button.place(x=60,y=450)
     # Multiplication
 multiplication_button = Button(window, text="Multiply",font=("Calibri",25),fg="white",bg="deep sky blue",
-                         activeforeground="white",activebackground="deep sky blue",image=multiply_icon,compound="bottom")
-multiplication_button.place(x=300,y=250)
+                         activeforeground="white",activebackground="deep sky blue",image=multiply_icon,compound="bottom",padx=4)
+multiplication_button.place(x=250,y=250)
     # Division
 division_button = Button(window, text="Divide",font=("Calibri",25),fg="white",bg="deep sky blue",
-                         activeforeground="white",activebackground="deep sky blue",image=divide_icon,compound="bottom")
-division_button.place(x=300,y=450)
+                         activeforeground="white",activebackground="deep sky blue",image=divide_icon,compound="bottom",padx=20)
+division_button.place(x=250,y=450)
 
 # Output Message
 
