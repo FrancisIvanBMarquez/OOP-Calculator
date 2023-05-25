@@ -11,7 +11,8 @@ calculator_icon = PhotoImage(file='CalculatorIcon.png')
 window.iconphoto(True,calculator_icon)
 window.config(background="SeaGreen1")
 # Title Box
-title_box = Label(window, text="Two Numbers Calculator")
+title_box = Label(window, text="Two Numbers Calculator", font=("Calibri",29,"bold"),fg="white",bg="deep sky blue",
+                  relief=RAISED, bd=15)
 title_box.pack()
 
 # Add first number box
