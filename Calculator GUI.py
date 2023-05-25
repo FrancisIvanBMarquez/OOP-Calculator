@@ -19,6 +19,8 @@ title_box.pack()
 first_number_box = Entry(window, font=("Calibri",15))
 first_number_box.pack()
 # Add second number box
+second_number_box = Entry(window, font=("Calibri",15))
+second_number_box.pack()
 # Buttons for operation
     # Addition
     # Subtraction
