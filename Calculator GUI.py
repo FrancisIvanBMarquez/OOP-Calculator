@@ -2,6 +2,7 @@
 # Import
 from tkinter import *
 from ClassCalculator import *
+calc = Calculator()
 
 # Add Window and specifications
 window = Tk()
