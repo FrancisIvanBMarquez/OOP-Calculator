@@ -3,10 +3,11 @@
 from tkinter import *
 from ClassCalculator import *
 
-# Add Window
+# Add Window and specifications
 window = Tk()
 window.geometry("450x600")
 window.title("Two Numbers Calculator")
+calculator_icon = PhotoImage(file='CalculatorIcon.png')
 
 # Add first number box
 # Add second number box
