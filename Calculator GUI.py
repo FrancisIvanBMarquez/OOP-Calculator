@@ -28,11 +28,10 @@ second_number_box.place(x=120, y=200)
     # Addition
 addition_button = Button(window, text="Add")
 addition_button.place(x=100,y=250)
-
-    # Subtraction
-
+     # Subtraction
+subtraction_button = Button(window, text="Subtract")
+subtraction_button.place(x=100,y=300)
     # Multiplication
-
     # Division
 
 # Output Message
