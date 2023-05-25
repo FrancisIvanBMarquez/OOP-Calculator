@@ -24,6 +24,11 @@ second_number_box = Entry(window, font=("Calibri",15),bd=5)
 second_number_box.place(x=120, y=200)
 
 # Buttons for operation
+# images for icons
+add_icon = PhotoImage(file="add icon.png")
+subtract_icon = PhotoImage(file="subtract icon.png")
+multiply_icon = PhotoImage(file="multiply icon.png")
+divide_icon = PhotoImage(file="divide icon.png")
 
     # Addition
 addition_button = Button(window, text="Add",font=("Calibri",25),fg="white",bg="deep sky blue",
