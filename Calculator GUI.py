@@ -30,13 +30,16 @@ addition_button = Button(window, text="Add",font=("Calibri",25),fg="white",bg="d
                          activeforeground="white",activebackground="deep sky blue")
 addition_button.place(x=100,y=250)
      # Subtraction
-subtraction_button = Button(window, text="Subtract")
+subtraction_button = Button(window, text="Subtract",font=("Calibri",25),fg="white",bg="deep sky blue",
+                         activeforeground="white",activebackground="deep sky blue")
 subtraction_button.place(x=100,y=300)
     # Multiplication
-multiplication_button = Button(window, text="Multiply")
+multiplication_button = Button(window, text="Multiply",font=("Calibri",25),fg="white",bg="deep sky blue",
+                         activeforeground="white",activebackground="deep sky blue")
 multiplication_button.place(x=300,y=250)
     # Division
-division_button = Button(window, text="Divide")
+division_button = Button(window, text="Divide",font=("Calibri",25),fg="white",bg="deep sky blue",
+                         activeforeground="white",activebackground="deep sky blue")
 division_button.place(x=300,y=300)
 
 # Output Message
