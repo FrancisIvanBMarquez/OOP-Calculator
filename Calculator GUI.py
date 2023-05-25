@@ -16,6 +16,8 @@ title_box = Label(window, text="Two Numbers Calculator", font=("Calibri",29,"bol
 title_box.pack()
 
 # Add first number box
+first_number_box = Entry(window, font=("Calibri",15))
+first_number_box.pack()
 # Add second number box
 # Buttons for operation
     # Addition
