@@ -8,6 +8,7 @@ window = Tk()
 window.geometry("450x600")
 window.title("Two Numbers Calculator")
 calculator_icon = PhotoImage(file='CalculatorIcon.png')
+window.iconphoto(True,calculator_icon)
 
 # Add first number box
 # Add second number box
